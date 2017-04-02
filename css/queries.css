@@ -1,0 +1,303 @@
+@media only screen and (max-width: 1700px) {
+    
+    /*SECTION-TWO-COLUMNS*/
+    .bigphoto{
+        width: 99%;
+        height: 98% !important;
+    }
+    
+    .photo img{
+    width: 100%;
+    height: 101% !important;
+    }
+    
+    /*SECTION-PHOTOS*/
+    .onlorem{
+    position: relative;
+    top: 200px !important;
+    padding-left: 27.5% !important;
+    }
+    
+}
+/* Big tablet to 1200px (widths smaller taht the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    
+    .row { padding: 0 2%; }
+    
+    h5{
+        font-size: 2.2rem !important;
+    }
+    /*SECTION-WHITE-CONTAINER*/
+    .secondlorem{
+        margin-left:15% !important;
+    }
+    
+    /*SECTION-TWO-COLUMNS*/
+    .bigphoto{
+        width: 99%;
+        height: 98.5% !important;
+    }
+    
+
+    /*SECTION-PHOTOS*/
+    .onlorem{
+        position: relative;
+        top: 200px !important;
+        padding-left: 25% !important;
+    }
+}
+
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1024px) {
+    
+    /*HEADER*/
+    .navbar{
+        margin: 19px !important;
+    }
+    
+    /*SECTION-WHITE-CONTAINER*/
+   .secondlorem{
+        margin-left:10% !important;
+    }
+    
+   /*SECTION-PHOTOS*/
+   .onlorem{
+        padding-left: 20% !important;
+    }
+    
+}
+
+@media only screen and (max-width: 855px) {
+    
+   /*SECTION-PHOTOS*/
+   .onlorem{
+        padding-left: 15% !important;
+    }
+    
+}
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 768px) {
+    
+    body{
+        font-size: 100% !important;
+    }
+    
+    /*HEADER*/
+    .normal_nav{
+        display: none !important;
+    }    
+    
+    .hamburger{
+        display: inline !important;
+    }
+        
+    .little{
+        padding-top: 4px !important;
+    }
+    
+    /*SECTION-WHITE-CONTAINER*/
+    .whitecontainer{
+        height: 800px !important;
+        margin-top: -150px !important
+    }
+    .viewbutton{
+        left: 35% !important;
+    }
+    .secondlorem{
+        margin-left:10% !important;
+    }
+    
+    /*SECTION-PHOTOS*/
+    .photos li{
+        width: 100% !important;
+    }
+    .onlorem{
+        padding-left: 32.5% !important;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    #map{
+        height: 490px !important;
+    }
+}
+
+@media only screen and (max-width: 556px) {
+    #map{
+        height: 515px !important;
+    }
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    h3{
+        font-size: 3.1rem !important;
+    }  
+    h4{
+        text-align: center !important;
+    }
+    
+        
+    #map{
+        margin-top: 20px !important;
+        margin-bottom: -70px !important;
+    }
+    
+    /*SECTION-TWO-COLUMNS*/
+    .bigphoto{
+        width: 100%;
+        height: 100% !important;
+    }
+    .navbar{
+        margin: 10px !important;
+    }
+    .div-navbar{
+        height: 150px !important;
+    }
+
+     /*HEADER*/
+    .firstlorem{
+        top: 350px !important;
+        left: 5px !important;
+    }
+    
+
+    /*SECTION WHITE CONTAINER*/
+    .section-white-container{
+    background-color: #EFEEE9;
+}
+    .secondlorem{
+        margin-left: 7.5% !important;
+    }
+    
+    .whitecontainer{
+        height: 800px !important;
+        margin-top: -150px !important;
+    }
+    
+    .viewbutton{
+        left: 25% !important;
+    }
+    
+    /*SECTION-TWO-COLUMNS*/
+    .section-two-columns{
+    height: 900px !important;
+}
+    .moonspeaklorem{
+        font-size: 1.5rem !important;
+        margin-left: 17.5%;
+    }
+
+    .box3ms{
+        margin-top: 20px !important;
+    }
+    
+    .bigphoto{
+        width: 100% !important;
+        height: 50% !important;
+    }
+    
+    /*SECTION-THREE-COLUMNS*/
+    .learnmorediv{
+        min-width: 99% !important;
+        min-height: 10% !important;
+        margin-bottom: 5px;
+}
+
+     /*SECTION-PHOTOS*/
+    .onlorem{
+        padding-left: 25% !important;
+    }
+
+    
+    /*FOOTER*/    
+    .footer_icons{
+        margin-left: 8% !important;
+    }    
+    
+    .copyright{
+        margin-top: 0px !important;
+        margin-bottom: 10px !important;
+        padding-right: 32.5% !important;
+        padding-bottom: 60px !important;
+    }
+    
+    #map{
+        margin-bottom: -50px !important;
+    }
+    
+   
+}
+
+
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 372px) {
+    
+    /*HEADER*/
+    .navbar{
+        margin: 10px !important;
+    }
+    
+    .firstlorem{
+        left: 25px !important;
+    }
+
+    
+    /*SECTION-WHITE-CONTAINER*/
+    .whitecontainer{
+        height: 890px !important;
+    }
+    .viewbutton{
+        left: 17.5% !important;
+    }
+    /*SECTION-TWO-COLUMNS*/
+        
+    .section-two-columns{
+        height: 1050px !important;
+    }
+    .moonspeaklorem{
+        margin-left: 12.5%;
+        margin-right: 2%;
+        font-size: 1.5rem !important;
+    }
+    
+     /*FOOTER*/    
+    .footer_icons{
+        font-size: 2.7rem !important;
+        margin-left: 5.25% !important;
+    }
+    .copyright{
+        padding-right: 25% !important;
+        margin-top: 0px !important;
+        margin-bottom: 10px !important;
+    }
+
+}
+
+
+@media only screen and (max-width: 300px) {
+        /*HEADER*/
+    .firstlorem{
+        font-size: 1.5rem !important;
+        left: 20px !important;
+    }
+    
+    /*SECTION-WHITE-CONTAINER*/
+    .whitecontainer{
+        height: 1300px !important;
+    }
+ .section-white-container{
+    height: 1050px !important;
+    }
+    
+
+    /*FOOTER*/  
+        .footer_icons{
+        font-size: 2rem !important;
+        margin-left: 5.25% !important;
+    }
+}
